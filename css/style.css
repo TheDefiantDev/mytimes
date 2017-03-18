@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    background-color: red;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav{
+    padding-right: 40px;
+    display: block;
+}
+
+.logo{
+    color: mediumaquamarine;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    border: 1px solid black;
+    padding-top: 116px;
+    margin: 0 auto 78px auto;
+}
+
+.column.large{
+    width: 630px;
+    border: 1px solid black;
+}
+
+.column.medium{
+    width: 300px;
+    border: 1px solid black;
+}
+
+.column.small{
+    width: 240px;
+    border: 1px solid black;
+}
